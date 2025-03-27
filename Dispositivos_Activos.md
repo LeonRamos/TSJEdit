@@ -102,7 +102,7 @@ Los semiconductores tipo P se producen mediante la incorporación de átomos tri
 ## **Comparación entre Tipo N y Tipo P**
 | **Característica**       | **Tipo N**                          | **Tipo P**                          |
 |--------------------------|-------------------------------------|-------------------------------------|
-| **Dopante utilizado**    | Grupo V (P, As, Sb)                | Grupo III (B, In, Ga)               |
+| **Tratamiento utilizado**    | Grupo V (P, As, Sb)                | Grupo III (B, In, Ga)               |
 | **Portadores mayoritarios** | Electrones (-)                     | Huecos (+)                          |
 | **Conductividad eléctrica** | Dominada por electrones libres     | Dominada por movimiento de huecos   |
 
