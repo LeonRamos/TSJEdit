@@ -62,5 +62,67 @@ Comprender los dispositivos activos sienta las bases para temas avanzados como:
 - Floyd, T. L. (2018). *Electronic Devices* (10.ª ed.). Pearson.
 - Avila, F. (2012). *Sintaxis y Estructura en Textos Técnicos*. Editorial ECCI.
 
+# **Materiales Semiconductores Tipo N y Tipo P
 
+Los materiales semiconductores tipo N y tipo P son esenciales en el diseño de dispositivos electrónicos modernos, como diodos, transistores y tiristores. Estos materiales se desarrollan mediante un proceso conocido como **dopaje**, que consiste en introducir impurezas controladas en un semiconductor intrínseco (como el silicio o el germanio) para modificar sus propiedades eléctricas. Este proceso permite crear regiones con diferentes tipos de portadores de carga, fundamentales para el funcionamiento de los dispositivos electrónicos.
 
+---
+
+## **Semiconductores Intrínsecos y Extrínsecos**
+Un semiconductor intrínseco es un material puro que tiene baja conductividad eléctrica a temperatura ambiente. Sin embargo, al ser dopado con elementos específicos, se convierte en un semiconductor extrínseco, aumentando su capacidad conductiva. Este dopaje genera dos tipos principales de semiconductores:
+
+1. **Tipo N**: Portadores mayoritarios son electrones libres (carga negativa).  
+2. **Tipo P**: Portadores mayoritarios son huecos (carga positiva efectiva).
+
+---
+
+## **Materiales Semiconductores Tipo N**
+
+Los semiconductores tipo N se obtienen añadiendo átomos pentavalentes (del grupo V de la tabla periódica), como fósforo (P), arsénico (As) o antimonio (Sb). Estos átomos tienen cinco electrones de valencia, de los cuales cuatro forman enlaces covalentes con el silicio, mientras que el quinto queda libre para moverse dentro del material, incrementando su conductividad.
+
+### **Características Principales**
+- **Portadores mayoritarios**: Electrones libres.  
+- **Portadores minoritarios**: Huecos.  
+- **Conductividad mejorada**: Gracias a la alta densidad de electrones libres.  
+- **Aplicaciones comunes**: Capas emisoras en transistores bipolares (BJT) y regiones activas en diodos.
+
+---
+
+## **Materiales Semiconductores Tipo P**
+Los semiconductores tipo P se producen mediante la incorporación de átomos trivalentes (del grupo III de la tabla periódica), como boro (B), indio (In) o galio (Ga). Estos átomos tienen tres electrones de valencia, lo que genera huecos al no completar los cuatro enlaces covalentes necesarios con el silicio. Los huecos actúan como portadores positivos dentro del material.
+
+### **Características Principales**
+- **Portadores mayoritarios**: Huecos.  
+- **Portadores minoritarios**: Electrones libres.  
+- **Conductividad mejorada**: Debido al movimiento de huecos en el material.  
+- **Aplicaciones comunes**: Bases en transistores bipolares y regiones activas en diodos LED.
+
+---
+
+## **Comparación entre Tipo N y Tipo P**
+| **Característica**       | **Tipo N**                          | **Tipo P**                          |
+|--------------------------|-------------------------------------|-------------------------------------|
+| **Dopante utilizado**    | Grupo V (P, As, Sb)                | Grupo III (B, In, Ga)               |
+| **Portadores mayoritarios** | Electrones (-)                     | Huecos (+)                          |
+| **Conductividad eléctrica** | Dominada por electrones libres     | Dominada por movimiento de huecos   |
+
+---
+
+## **Unión PN**
+La combinación de un semiconductor tipo N con uno tipo P forma una unión PN, que es la base para dispositivos como diodos y transistores. En esta unión:  
+1. Los electrones del tipo N difunden hacia el tipo P, mientras que los huecos del tipo P migran hacia el tipo N.  
+2. Se genera una zona de deplexión donde se establece un campo eléctrico interno que permite la rectificación de corriente eléctrica.
+
+---
+
+## **Aplicaciones Prácticas en Electrónica**
+1. **Diodos PN:** Rectificadores y reguladores de voltaje (diodos Zener).  
+2. **Transistores BJT:** Amplificadores y conmutadores electrónicos en configuraciones NPN o PNP.  
+3. **Tiristores:** Controladores de potencia en sistemas industriales y domésticos (SCR y TRIAC).
+
+---
+
+## **Referencias Bibliográficas**
+- Boylestad, R., & Nashelsky, L. (2013). *Electronic Devices and Circuit Theory* (11ª ed.). Pearson Education.  
+- Floyd, T.L. (2018). *Electronic Devices* (10ª ed.). Pearson Education.  
+- Sze, S.M., & Ng, K.K. (2007). *Physics of Semiconductor Devices* (3ª ed.). Wiley-Interscience.  
