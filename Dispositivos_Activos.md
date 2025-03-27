@@ -23,7 +23,7 @@ A pesar del predominio de la electrónica digital en el procesamiento de datos, 
 - Floyd, T. L. (2018). *Electronic Devices* (10.ª ed.). Pearson.
 
 # Dispositivos Activos
-![Circuito](https://www.freepik.es/foto-gratis/bodegon-componentes-disco-duro-angulo-alto_26559785.htm#fromView=search&page=1&position=13&uuid=390c03c1-e4c3-4713-b84f-21c14035c888&query=electr%C3%B3nica+anal%C3%B3gica)
+![https://www.freepik.es/search?format=search&img=1&last_filter=img&last_value=1&query=electr%C3%B3nica+anal%C3%B3gica]()
 Los dispositivos activos se definen como componentes electrónicos que requieren una fuente de energía externa para modificar, amplificar o conmutar señales eléctricas. A diferencia de los elementos pasivos, estos dispositivos introducen ganancia (incremento de amplitud) o control direccional al flujo de corriente, siendo fundamentales en circuitos analógicos y digitales. Tres atributos los distinguen:
 
 - **Dependencia energética:** Utilizan alimentación externa (ej.: baterías, fuentes DC) para operar.
