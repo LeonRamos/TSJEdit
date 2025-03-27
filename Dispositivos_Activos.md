@@ -62,14 +62,14 @@ Comprender los dispositivos activos sienta las bases para temas avanzados como:
 - Floyd, T. L. (2018). *Electronic Devices* (10.ª ed.). Pearson.
 - Avila, F. (2012). *Sintaxis y Estructura en Textos Técnicos*. Editorial ECCI.
 
-# **Materiales Semiconductores Tipo N y Tipo P
+# **Materiales Semiconductores Tipo N y Tipo P**
 
 Los materiales semiconductores tipo N y tipo P son esenciales en el diseño de dispositivos electrónicos modernos, como diodos, transistores y tiristores. Estos materiales se desarrollan mediante un proceso conocido como **dopaje**, que consiste en introducir impurezas controladas en un semiconductor intrínseco (como el silicio o el germanio) para modificar sus propiedades eléctricas. Este proceso permite crear regiones con diferentes tipos de portadores de carga, fundamentales para el funcionamiento de los dispositivos electrónicos.
 
 ---
 
 ## **Semiconductores Intrínsecos y Extrínsecos**
-Un semiconductor intrínseco es un material puro que tiene baja conductividad eléctrica a temperatura ambiente. Sin embargo, al ser dopado con elementos específicos, se convierte en un semiconductor extrínseco, aumentando su capacidad conductiva. Este dopaje genera dos tipos principales de semiconductores:
+Un semiconductor intrínseco es un material puro que tiene baja conductividad eléctrica a temperatura ambiente. Sin embargo, al ser dopado con elementos específicos, se convierte en un semiconductor extrínseco, aumentando su capacidad conductiva. Este tratamiento genera dos tipos principales de semiconductores:
 
 1. **Tipo N**: Portadores mayoritarios son electrones libres (carga negativa).  
 2. **Tipo P**: Portadores mayoritarios son huecos (carga positiva efectiva).
