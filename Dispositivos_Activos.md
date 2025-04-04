@@ -163,6 +163,7 @@ El diodo LED es un dispositivo que emite luz cuando se encuentra en polarizació
 - Posee una larga vida útil y una baja generación de calor.
 
   ![Diodo Led](/led.png)
+  <p>La imagen anterior es la representación gráfica del diodo LED en polarización directa, mostrando cómo la recombinación electrónica produce la emisión de luz en diferentes colores según el material semiconductor</p>
 
 ### Aplicaciones
 - Sistemas de iluminación para uso residencial, industrial y automotriz.
