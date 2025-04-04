@@ -162,6 +162,8 @@ El diodo LED es un dispositivo que emite luz cuando se encuentra en polarizació
   - Nitruro de galio (GaN): Emisión en azul y blanco.
 - Posee una larga vida útil y una baja generación de calor.
 
+  ![Diodo Led](/led.png)
+
 ### Aplicaciones
 - Sistemas de iluminación para uso residencial, industrial y automotriz.
 - Indicadores en dispositivos electrónicos.
