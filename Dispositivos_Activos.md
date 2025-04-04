@@ -126,3 +126,84 @@ La combinación de un semiconductor tipo N con uno tipo P forma una unión PN, q
 - Boylestad, R., & Nashelsky, L. (2013). *Electronic Devices and Circuit Theory* (11ª ed.). Pearson Education.  
 - Floyd, T.L. (2018). *Electronic Devices* (10ª ed.). Pearson Education.  
 - Sze, S.M., & Ng, K.K. (2007). *Physics of Semiconductor Devices* (3ª ed.). Wiley-Interscience.  
+
+# Diodos (LED, Rectificadores, Zener)
+
+## Introducción
+Los diodos constituyen dispositivos semiconductores fundamentales en la electrónica, cuya función principal es permitir el flujo de corriente en un solo sentido. Estos componentes desempeñan un papel esencial en diversas aplicaciones, incluyendo la rectificación de corriente, la regulación de voltaje y la emisión de luz. En el presente capítulo se examinan tres tipos de diodos fundamentales: LED, rectificadores y Zener.
+
+Los diodos LED, rectificadores y Zener constituyen componentes esenciales en la electrónica moderna. Cada uno de ellos presenta características y aplicaciones específicas que los hacen indispensables en el desarrollo de circuitos electrónicos, desde la conversión y estabilización de energía hasta la emisión de luz. Su estudio resulta fundamental para el diseño y análisis de sistemas electrónicos avanzados.
+
+---
+
+## 1. Principio de Funcionamiento de los Diodos
+
+Un diodo está compuesto por una unión PN, la cual se caracteriza por la presencia de dos regiones diferenciadas:
+- **Región P:** Contiene huecos como portadores de carga mayoritarios.
+- **Región N:** Contiene electrones como portadores de carga mayoritarios.
+
+[Unión PN](./unionPN)
+
+El funcionamiento del diodo depende de su polarización:
+- En **polarización directa**, el ánodo se encuentra a un voltaje positivo con respecto al cátodo, permitiendo el paso de corriente.
+- En **polarización inversa**, el ánodo se encuentra a un voltaje negativo respecto al cátodo, impidiendo el flujo de corriente hasta alcanzar el voltaje de ruptura.
+
+---
+
+## 2. Diodo LED (Light Emitting Diode)
+
+El diodo LED es un dispositivo que emite luz cuando se encuentra en polarización directa. Su funcionamiento se basa en la recombinación de electrones y huecos dentro del material semiconductor, lo que genera la emisión de fotones mediante el fenómeno de electroluminiscencia.
+
+### Características
+- Presenta una eficiencia energética superior en comparación con las bombillas incandescentes.
+- Se fabrica en diferentes colores según el material semiconductor empleado:
+  - Arseniuro de galio (GaAs): Emisión en rojo e infrarrojo.
+  - Fosfuro de galio (GaP): Emisión en verde y amarillo.
+  - Nitruro de galio (GaN): Emisión en azul y blanco.
+- Posee una larga vida útil y una baja generación de calor.
+
+### Aplicaciones
+- Sistemas de iluminación para uso residencial, industrial y automotriz.
+- Indicadores en dispositivos electrónicos.
+- Pantallas y señalización luminosa.
+
+---
+
+## 3. Diodo Rectificador
+
+El diodo rectificador se utiliza principalmente en fuentes de alimentación para convertir corriente alterna (CA) en corriente continua (CC). Existen dos tipos principales:
+- **Diodo de silicio convencional:** Caracterizado por su alta eficiencia en procesos de rectificación.
+- **Diodo Schottky:** Presenta una menor caída de voltaje y una alta velocidad de conmutación.
+
+### Tipos de Rectificación
+- **Rectificación de media onda:** Utiliza un solo diodo y permite el paso de una sola mitad del ciclo de la corriente alterna.
+- **Rectificación de onda completa:** Emplea un puente de diodos para permitir el flujo de corriente en ambos ciclos de la corriente alterna.
+
+### Aplicaciones
+- Fuentes de alimentación en dispositivos electrónicos.
+- Convertidores de voltaje.
+- Protección contra inversión de polaridad en circuitos eléctricos.
+
+---
+
+## 4. Diodo Zener
+
+El diodo Zener se distingue por su capacidad de operar en **polarización inversa** sin sufrir daños, siempre que se mantenga dentro del voltaje de ruptura especificado.
+
+### Características
+- Mantiene un voltaje constante independientemente de variaciones en la corriente.
+- Está disponible en distintos valores de voltaje de ruptura (3.3V, 5.1V, 12V, etc.).
+- Se emplea como regulador de voltaje en circuitos electrónicos.
+
+### Aplicaciones
+- Regulación de voltaje en fuentes de alimentación.
+- Protección contra sobrevoltajes en circuitos electrónicos.
+- Implementación en circuitos de referencia de voltaje.
+
+---
+
+## Bibliografía
+- Boylestad, R., & Nashelsky, L. (2015). *Electrónica: Teoría de Circuitos y Dispositivos Electrónicos*. Pearson.
+- Malvino, A. P. (2016). *Principios de Electrónica*. McGraw-Hill.
+- Millman, J., & Halkias, C. (2010). *Electrónica de Dispositivos*. McGraw-Hill.
+
