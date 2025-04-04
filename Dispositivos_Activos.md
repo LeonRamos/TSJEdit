@@ -142,7 +142,7 @@ Un diodo está compuesto por una unión PN, la cual se caracteriza por la presen
 - **Región P:** Contiene huecos como portadores de carga mayoritarios.
 - **Región N:** Contiene electrones como portadores de carga mayoritarios.
 
-[Unión PN](./unionPN)
+![Unión PN](./unionPN)
 
 El funcionamiento del diodo depende de su polarización:
 - En **polarización directa**, el ánodo se encuentra a un voltaje positivo con respecto al cátodo, permitiendo el paso de corriente.
