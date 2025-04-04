@@ -175,8 +175,12 @@ El diodo LED es un dispositivo que emite luz cuando se encuentra en polarizació
 ## 3. Diodo Rectificador
 
 El diodo rectificador se utiliza principalmente en fuentes de alimentación para convertir corriente alterna (CA) en corriente continua (CC). Existen dos tipos principales:
-- **Diodo de silicio convencional:** Caracterizado por su alta eficiencia en procesos de rectificación.
-- **Diodo Schottky:** Presenta una menor caída de voltaje y una alta velocidad de conmutación.
+
+- **Diodo de silicio convencional:** Caracterizado por su alta eficiencia en procesos de rectificación.Es un tipo de diodo que sirve para convertir una señal alterna a una señal continua, esto es posible hacerlo debido a su capacidad de dejar circular la corriente en un solo sentido. dependiendo del material en el que fue construido tendrá un voltaje de polarización más bajo, lo que se traduce en una respuesta mas rapida en frecuencia.
+
+- **Diodo Schottky:** Presenta una menor caída de voltaje y una alta velocidad de conmutación. El símbolo del diodo Schottky se basa en el símbolo básico del diodo. El símbolo de Schottky se diferencia de otros tipos de diodos por la adición de dos patas extras en la barra del símbolo.
+
+![Diodo Schottky](/schottky.png)
 
 ### Tipos de Rectificación
 - **Rectificación de media onda:** Utiliza un solo diodo y permite el paso de una sola mitad del ciclo de la corriente alterna.
@@ -190,8 +194,13 @@ El diodo rectificador se utiliza principalmente en fuentes de alimentación para
 ---
 
 ## 4. Diodo Zener
+![Diodo Zener](/zener.png)
 
-El diodo Zener se distingue por su capacidad de operar en **polarización inversa** sin sufrir daños, siempre que se mantenga dentro del voltaje de ruptura especificado.
+El diodo semiconductor es el dispositivo electrónico semiconductor más simple; actualmente se utiliza en varios circuitos: rectificadores, sensores de temperatura, referencias de tensión, emisión de luz, mezcladores, multiplicadores de voltaje, conformadores de ondas, etcétera. Un tipo en particular, y en el cual se enfoca este tema, es el diodo Zener. Aunque todos los diodos Zener tienen un voltaje de ruptura (más allá de esto, el diodo conduce a pesar de encontrarse polarizado con un potencial negativo), su peculiaridad es que dicho voltaje es relativamente pequeño. Aunque en muchas aplicaciones la conducción de corriente en dirección inversa no es deseable, este efecto puede aprovecharse para hacer reguladores de voltaje, los cuales son circuitos electrónicos cuya función es mantener un voltaje constante a su salida. Además, los reguladores de voltaje se utilizan dentro de las fuentes de voltaje de DC durante el proceso de conversión de la tensión de AC a DC.
+
+![curva tipica](/curva.png)
+
+Como se mencionó en un principio, el diodo Zener es un dispositivo no lineal y, por esta razón, analizar y diseñar los circuitos reguladores considerando ecuaciones no lineales se vuelve complicado e impráctico. Por esta razón, es necesario buscar una forma de aproximar el comportamiento de este dispositivo a través de otros elementos como diodos ideales, resistencias y fuentes de voltaje.
 
 ### Características
 - Mantiene un voltaje constante independientemente de variaciones en la corriente.
