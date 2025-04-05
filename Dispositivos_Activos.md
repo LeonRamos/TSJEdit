@@ -227,9 +227,11 @@ En el campo de la electrónica analógica, los transistores bipolares de unión 
 
 ---
 
-## 1. ¿Qué es un transistor?
+## ¿Qué es un transistor?
 
 Un transistor es un dispositivo semiconductor que permite controlar el flujo de corriente eléctrica entre dos de sus terminales mediante una pequeña corriente o tensión aplicada a una tercera terminal. Los BJT están compuestos por tres regiones de material semiconductor que forman dos uniones PN consecutivas, y se clasifican en dos tipos: NPN y PNP.
+
+![Transistor BTJ](/bjt.png)
 
 ### Funciones principales
 - **Amplificador:** Un transistor puede aumentar la señal de entrada, es decir, amplificar corrientes o tensiones eléctricas.
@@ -237,7 +239,7 @@ Un transistor es un dispositivo semiconductor que permite controlar el flujo de 
 
 ---
 
-## 2. Estructura del BJT
+## Estructura del BJT
 
 El BJT posee tres terminales:
 - **Emisor (E):** Terminal por el cual se inyectan los portadores de carga (electrones o huecos).
@@ -248,11 +250,12 @@ El BJT posee tres terminales:
 - **NPN:** En este tipo, el emisor y el colector son de material tipo N, y la base es de tipo P. Es el más común en aplicaciones prácticas.
 - **PNP:** En este caso, el emisor y el colector son de tipo P, y la base es de tipo N.
 
+![BTJ NPN PNP](/btjNPNPNP.png)
 La dirección del flujo de corriente y las condiciones de polarización difieren en ambos tipos, pero el principio de funcionamiento es análogo.
 
 ---
 
-## 3. Funcionamiento Básico
+## Funcionamiento Básico
 
 El principio de operación de un transistor BJT se basa en el control de la corriente entre el colector y el emisor mediante la corriente que circula por la base. Para que el transistor funcione adecuadamente:
 
@@ -263,43 +266,44 @@ En un transistor NPN, esto significa que:
 - El emisor está a un potencial más bajo que la base (polarización directa).
 - El colector está a un potencial más alto que la base (polarización inversa).
 
+![Operación Básica Transistor](/operacion.png)
 La corriente que fluye desde la base permite que una corriente mucho mayor circule desde el colector hacia el emisor.
 
 ---
 
-## 4. Modos de Operación
+## Modos de Operación
 
 El comportamiento del transistor depende de las polarizaciones aplicadas a sus uniones, y esto define tres regiones de operación:
 
-### 4.1. Región de Corte
+### Región de Corte
 - Ambas uniones (emisor-base y colector-base) están polarizadas inversamente.
 - No hay flujo de corriente significativa entre el colector y el emisor.
 - El transistor actúa como un **interruptor abierto**.
 
-### 4.2. Región Activa
+### Región Activa
 - La unión emisor-base está polarizada directamente y la colector-base inversamente.
 - El transistor funciona como **amplificador**.
 - La corriente de colector (IC) es proporcional a la corriente de base (IB):  
   **IC = β * IB**, donde β es la ganancia de corriente del transistor.
 
-### 4.3. Región de Saturación
+### Región de Saturación
 - Ambas uniones están polarizadas directamente.
 - La corriente fluye libremente del colector al emisor.
 - El transistor actúa como un **interruptor cerrado**.
 
 ---
 
-## 5. Parámetros y Características
+## Parámetros y Características
 
-### 5.1. Ganancia de Corriente (β o hFE)
+### Ganancia de Corriente (β o hFE)
 La ganancia de corriente indica cuántas veces la corriente de base se amplifica para obtener la corriente de colector. Por ejemplo, si β = 100 y la corriente de base es de 20 µA, la corriente de colector será de 2 mA.
 
-### 5.2. Curvas Características
+### Curvas Características
 Las curvas características de un transistor muestran la relación entre las corrientes y voltajes aplicados:
 - **Curvas IC vs. VCE:** Para diferentes valores de corriente de base, se observa cómo varía la corriente de colector respecto a la tensión colector-emisor.
 - Estas curvas permiten identificar en qué región opera el transistor y son esenciales para el diseño de circuitos amplificadores.
 
-### 5.3. Voltajes y Corrientes Máximas
+### Voltajes y Corrientes Máximas
 Cada transistor tiene especificaciones límites dadas por el fabricante:
 - **VCE(max):** Máxima tensión que puede soportar entre colector y emisor.
 - **IC(max):** Máxima corriente de colector permitida.
@@ -309,25 +313,120 @@ Superar estos límites puede dañar el dispositivo permanentemente.
 
 ---
 
-## 6. Aplicaciones de los Transistores BJT
+## Aplicaciones de los Transistores BJT
 
 Los transistores BJT tienen una amplia variedad de aplicaciones en circuitos electrónicos:
 
-### 6.1. Amplificadores
+### **Amplificadores**
 - En configuraciones como emisor común, colector común y base común.
 - Se utilizan en radios, equipos de audio, instrumentación y telecomunicaciones.
 
-### 6.2. Interruptores Electrónicos
+### **Interruptores Electrónicos**
 - Usados en lógica digital, controladores de motores, fuentes conmutadas.
 - Permiten la automatización de procesos electrónicos con eficiencia y fiabilidad.
 
-### 6.3. Osciladores y Generadores de Señal
+### **Osciladores y Generadores de Señal**
 - Generan formas de onda periódicas para relojes digitales, sintetizadores de audio y moduladores.
 
-### 6.4. Reguladores de Tensión
+### **Reguladores de Tensión**
 - En combinación con diodos Zener, se utilizan para mantener una tensión constante de salida.
 
 ---
+
+# **Tiristores: Dispositivos de Control de Potencia**  
+### (SCR, DIAC y TRIAC)
+
+## **Introducción**
+
+En la electrónica de potencia, los tiristores ocupan un lugar crucial al permitir el control eficiente de la energía eléctrica en aplicaciones industriales, comerciales y domésticas. Estos dispositivos semiconductores están diseñados para manejar altos voltajes y corrientes, facilitando la conmutación y regulación de potencia en sistemas de corriente alterna (CA) y corriente continua (CC).
+
+El término *tiristor* hace referencia a una familia de componentes semiconductores que actúan como interruptores controlados, es decir, pueden cambiar entre estados de conducción y no conducción bajo ciertas condiciones. Entre los tiristores más importantes y utilizados se encuentran el **SCR (Rectificador Controlado de Silicio)**, el **DIAC** y el **TRIAC**, cada uno con características y aplicaciones particulares.
+
+Este material tiene como objetivo que el estudiante comprenda la estructura, el funcionamiento, las características eléctricas y las aplicaciones típicas de estos tres tipos de tiristores.
+
+---
+
+## **El Rectificador Controlado de Silicio (SCR)**
+
+### **Estructura y Principio de Funcionamiento**
+
+El SCR (Silicon Controlled Rectifier) es un dispositivo semiconductor de cuatro capas (PNPN) con tres terminales: ánodo (A), cátodo (K) y compuerta (G). Su funcionamiento se basa en el control del paso de corriente desde el ánodo hacia el cátodo a través de una señal aplicada a la compuerta.
+
+Cuando el ánodo se encuentra a un voltaje positivo respecto al cátodo y se aplica una corriente de disparo en la compuerta, el SCR entra en conducción, permitiendo el paso de corriente. Esta conducción se mantiene incluso si se retira la señal de la compuerta, siempre que la corriente entre ánodo y cátodo sea mayor a una corriente mínima denominada *corriente de mantenimiento*. Para que el dispositivo deje de conducir, es necesario reducir esta corriente por debajo de dicho valor, lo que se puede lograr mediante el cruce por cero en una señal de CA o conmutación forzada en CC.
+
+### **Características y Parámetros Eléctricos**
+
+- **Voltaje de encendido (V<sub>BO</sub>):** es el voltaje mínimo necesario entre ánodo y cátodo para activar el dispositivo sin señal de compuerta.
+- **Corriente de disparo (I<sub>GT</sub>):** mínima corriente que debe aplicarse a la compuerta para encender el SCR.
+- **Corriente de mantenimiento (I<sub>H</sub>):** corriente mínima entre ánodo y cátodo para mantener el SCR en conducción.
+- **Tiempo de encendido y apagado:** valores importantes en aplicaciones de conmutación rápida.
+
+### **Aplicaciones Comunes**
+
+El SCR se emplea en sistemas de control de potencia como reguladores de velocidad de motores, sistemas de calefacción eléctrica, rectificadores controlados, fuentes conmutadas y protecciones contra sobrecargas.
+
+---
+
+## **DIAC (Diodo para Corriente Alterna)**
+
+### **Estructura y Funcionamiento**
+
+El DIAC es un dispositivo semiconductor bidireccional compuesto por tres capas alternadas, que actúa como un interruptor que conduce en ambas direcciones cuando se alcanza una tensión de ruptura determinada. Posee dos terminales, y su comportamiento es simétrico con respecto a la polarización.
+
+El DIAC no dispone de terminal de control como el SCR, por lo que no puede activarse mediante una señal externa. Su activación se produce automáticamente al superar el voltaje de ruptura en cualquiera de los dos sentidos.
+
+### **Características**
+
+- **Voltaje de ruptura (V<sub>BO</sub>):** alrededor de 30 a 40 V en la mayoría de los modelos comerciales.
+- **Simetría:** el DIAC conduce en ambas direcciones de forma prácticamente idéntica.
+- **Sin compuerta:** no puede ser activado por una señal externa, lo que lo hace ideal para disparar TRIACs.
+
+### **Aplicaciones Típicas**
+
+El DIAC es ampliamente utilizado como disparador para TRIACs en circuitos de regulación de luz (dimmers), control de ventiladores, pequeños motores de CA y control de calentadores eléctricos. Su comportamiento bidireccional y su activación automática lo convierten en un elemento ideal para circuitos osciladores y de arranque suave.
+
+---
+
+## **TRIAC (Triodo para Corriente Alterna)**
+
+### Estructura y Principio de Funcionamiento**
+
+El TRIAC (Triode for Alternating Current) es un componente de cinco capas capaz de conducir corriente en ambas direcciones, a diferencia del SCR que solo lo hace en un sentido. Este dispositivo también tiene tres terminales: MT1, MT2 (terminales principales) y G (compuerta). Puede ser disparado tanto por corriente positiva como negativa en la compuerta, lo que permite una gran flexibilidad en el diseño de circuitos de control.
+
+El TRIAC puede considerarse como dos SCRs conectados en antiparalelo, con compuerta común. Esta arquitectura le permite funcionar en ambos semicíclos de una señal de CA.
+
+### **Características Principales**
+
+- **Bidireccionalidad:** puede controlar el paso de corriente en ambos sentidos.
+- **Control por compuerta:** puede dispararse con señales positivas o negativas.
+- **Sensibilidad:** requiere una corriente de disparo ligeramente superior a la del SCR.
+
+### **Aplicaciones Prácticas**
+
+El TRIAC se utiliza en una gran variedad de aplicaciones de control de potencia en CA, como reguladores de intensidad para lámparas incandescentes, controles de temperatura, controladores de velocidad para motores de inducción monofásicos, lavadoras, hornos eléctricos y soldadoras. Su capacidad para ser controlado electrónicamente lo hace indispensable en aplicaciones de automatización y domótica.
+
+---
+
+## **Comparación entre SCR, DIAC y TRIAC**
+
+| Característica | SCR | DIAC | TRIAC |
+|----------------|-----|------|-------|
+| Direccionalidad | Unidireccional | Bidireccional | Bidireccional |
+| Terminal de control | Sí | No | Sí |
+| Uso común | Rectificadores, inversores | Disparo de TRIACs | Controladores de potencia en CA |
+| Complejidad de control | Media | Baja | Alta (por disparo en ambos ciclos) |
+
+![omparación visual entre SCR, DIAC y TRIAC](/triacscrdiac.png)
+
+## **Referencias Bibliográficas (formato APA)**
+
+Floyd, T. L. (2019). *Dispositivos semiconductores y teoría de circuitos electrónicos* (11.ª ed.). Pearson Educación.
+
+Boylestad, R. L., & Nashelsky, L. (2017). *Electrónica: teoría de circuitos y dispositivos electrónicos* (11.ª ed.). Pearson.
+
+Mohan, N., Undeland, T. M., & Robbins, W. P. (2003). *Power Electronics: Converters, Applications, and Design* (3rd ed.). John Wiley & Sons.
+
+Sedra, A. S., & Smith, K. C. (2020). *Microelectrónica* (8.ª ed.). Oxford University Press.
 
 
 
