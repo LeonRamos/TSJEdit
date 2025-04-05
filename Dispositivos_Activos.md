@@ -219,3 +219,115 @@ Como se mencionó en un principio, el diodo Zener es un dispositivo no lineal y,
 - Malvino, A. P. (2016). *Principios de Electrónica*. McGraw-Hill.
 - Millman, J., & Halkias, C. (2010). *Electrónica de Dispositivos*. McGraw-Hill.
 
+# Transistores Bipolares de Unión (BJT)
+
+## Introducción
+
+En el campo de la electrónica analógica, los transistores bipolares de unión (BJT, por sus siglas en inglés) son dispositivos semiconductores fundamentales que desempeñan funciones esenciales en circuitos de amplificación y conmutación. Su invención marcó un hito en la historia de la tecnología, permitiendo el desarrollo de dispositivos electrónicos más pequeños, eficientes y confiables. Este capítulo aborda en profundidad la estructura, el funcionamiento, los modos de operación, los parámetros característicos y las aplicaciones de los transistores BJT.
+
+---
+
+## 1. ¿Qué es un transistor?
+
+Un transistor es un dispositivo semiconductor que permite controlar el flujo de corriente eléctrica entre dos de sus terminales mediante una pequeña corriente o tensión aplicada a una tercera terminal. Los BJT están compuestos por tres regiones de material semiconductor que forman dos uniones PN consecutivas, y se clasifican en dos tipos: NPN y PNP.
+
+### Funciones principales
+- **Amplificador:** Un transistor puede aumentar la señal de entrada, es decir, amplificar corrientes o tensiones eléctricas.
+- **Interruptor:** También puede actuar como un conmutador, permitiendo o bloqueando el paso de corriente según el estado de polarización.
+
+---
+
+## 2. Estructura del BJT
+
+El BJT posee tres terminales:
+- **Emisor (E):** Terminal por el cual se inyectan los portadores de carga (electrones o huecos).
+- **Base (B):** Capa muy delgada y ligeramente dopada que controla el paso de portadores.
+- **Colector (C):** Terminal que recoge los portadores que han cruzado la base.
+
+### Tipos de BJT
+- **NPN:** En este tipo, el emisor y el colector son de material tipo N, y la base es de tipo P. Es el más común en aplicaciones prácticas.
+- **PNP:** En este caso, el emisor y el colector son de tipo P, y la base es de tipo N.
+
+La dirección del flujo de corriente y las condiciones de polarización difieren en ambos tipos, pero el principio de funcionamiento es análogo.
+
+---
+
+## 3. Funcionamiento Básico
+
+El principio de operación de un transistor BJT se basa en el control de la corriente entre el colector y el emisor mediante la corriente que circula por la base. Para que el transistor funcione adecuadamente:
+
+- La **unión emisor-base** debe estar **polarizada directamente**.
+- La **unión colector-base** debe estar **polarizada inversamente**.
+
+En un transistor NPN, esto significa que:
+- El emisor está a un potencial más bajo que la base (polarización directa).
+- El colector está a un potencial más alto que la base (polarización inversa).
+
+La corriente que fluye desde la base permite que una corriente mucho mayor circule desde el colector hacia el emisor.
+
+---
+
+## 4. Modos de Operación
+
+El comportamiento del transistor depende de las polarizaciones aplicadas a sus uniones, y esto define tres regiones de operación:
+
+### 4.1. Región de Corte
+- Ambas uniones (emisor-base y colector-base) están polarizadas inversamente.
+- No hay flujo de corriente significativa entre el colector y el emisor.
+- El transistor actúa como un **interruptor abierto**.
+
+### 4.2. Región Activa
+- La unión emisor-base está polarizada directamente y la colector-base inversamente.
+- El transistor funciona como **amplificador**.
+- La corriente de colector (IC) es proporcional a la corriente de base (IB):  
+  **IC = β * IB**, donde β es la ganancia de corriente del transistor.
+
+### 4.3. Región de Saturación
+- Ambas uniones están polarizadas directamente.
+- La corriente fluye libremente del colector al emisor.
+- El transistor actúa como un **interruptor cerrado**.
+
+---
+
+## 5. Parámetros y Características
+
+### 5.1. Ganancia de Corriente (β o hFE)
+La ganancia de corriente indica cuántas veces la corriente de base se amplifica para obtener la corriente de colector. Por ejemplo, si β = 100 y la corriente de base es de 20 µA, la corriente de colector será de 2 mA.
+
+### 5.2. Curvas Características
+Las curvas características de un transistor muestran la relación entre las corrientes y voltajes aplicados:
+- **Curvas IC vs. VCE:** Para diferentes valores de corriente de base, se observa cómo varía la corriente de colector respecto a la tensión colector-emisor.
+- Estas curvas permiten identificar en qué región opera el transistor y son esenciales para el diseño de circuitos amplificadores.
+
+### 5.3. Voltajes y Corrientes Máximas
+Cada transistor tiene especificaciones límites dadas por el fabricante:
+- **VCE(max):** Máxima tensión que puede soportar entre colector y emisor.
+- **IC(max):** Máxima corriente de colector permitida.
+- **Ptot:** Potencia total máxima que el transistor puede disipar.
+
+Superar estos límites puede dañar el dispositivo permanentemente.
+
+---
+
+## 6. Aplicaciones de los Transistores BJT
+
+Los transistores BJT tienen una amplia variedad de aplicaciones en circuitos electrónicos:
+
+### 6.1. Amplificadores
+- En configuraciones como emisor común, colector común y base común.
+- Se utilizan en radios, equipos de audio, instrumentación y telecomunicaciones.
+
+### 6.2. Interruptores Electrónicos
+- Usados en lógica digital, controladores de motores, fuentes conmutadas.
+- Permiten la automatización de procesos electrónicos con eficiencia y fiabilidad.
+
+### 6.3. Osciladores y Generadores de Señal
+- Generan formas de onda periódicas para relojes digitales, sintetizadores de audio y moduladores.
+
+### 6.4. Reguladores de Tensión
+- En combinación con diodos Zener, se utilizan para mantener una tensión constante de salida.
+
+---
+
+
+
