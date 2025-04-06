@@ -5,8 +5,9 @@
 ## Índice
 
 1. [Dispositivos Activos](Dispositivos_Activos.md)
-2. [Amplificadores Operacionales](Amplificadores_Operacionales.md)
-3. [Armar una Fuente de Voltaje](Fuente_de_Voltaje.md)
+2. [Actividad](ActividadReactivosOpcionMultiple.md)
+3. [Amplificadores Operacionales](Amplificadores_Operacionales.md)
+4. [Armar una Fuente de Voltaje](Fuente_de_Voltaje.md)
 
 ---
 
