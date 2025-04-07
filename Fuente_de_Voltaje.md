@@ -84,6 +84,16 @@ Al variar el potenciómetro, cambiará la tensión en la **base** del transistor
 
 ![Fuente](fuente.png)
 
+# Actividad complementaria
+
+Una vez completada la práctica con el transistor NPN, realiza las siguientes modificaciones:
+
+1. Sustituye el transistor BJT y el potenciómetro por un regulador de voltaje **LM317**.
+2. Investiga el diagrama de conexión típico del LM317 para obtener una salida variable.
+3. Utiliza resistencias fijas y/o un potenciómetro para ajustar la tensión de salida.
+4. Mide la tensión de salida en diferentes configuraciones de resistencia y documenta tus observaciones.
+5. Toma capturas de pantalla de tu circuito y resultados.
+
 # Rúbrica de evaluación
 
 | Criterio                                      | Excelente (10)                                            | Bueno (8)                                               | Aceptable (6)                                          | Deficiente (0-5)                                        |
