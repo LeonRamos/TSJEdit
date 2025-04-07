@@ -1,12 +1,12 @@
-# 🛠️ Práctica: Fuente de Poder Variable con Transistor NPN (Tinkercad)
+#  Fuente de Poder Variable con Transistor NPN
 
-## 🧪 Introducción
+## Introducción
 
 En el estudio de la electrónica analógica, los dispositivos activos juegan un papel fundamental para el control y manipulación de señales eléctricas. A diferencia de los dispositivos pasivos, los activos —como los transistores— son capaces de amplificar, conmutar o modular una señal. Esta práctica se centra en la implementación de una fuente de poder variable utilizando un transistor BJT NPN, uno de los componentes activos más utilizados en circuitos analógicos. Mediante el uso de un potenciómetro se logra variar la tensión de salida, demostrando así el principio de amplificación y control de corriente que caracteriza a los transistores. Esta actividad proporciona una experiencia práctica que consolida el entendimiento de conceptos clave como el funcionamiento del emisor seguidor, el control de ganancia y la polarización del transistor, empleando el simulador Tinkercad como herramienta de experimentación virtual.
 
 
 
-## 📦 Componentes
+## Componentes
 
 - 1x Batería de 9V
 - 1x Transistor NPN (ej: 2N2222 o BC547)
@@ -18,7 +18,7 @@ En el estudio de la electrónica analógica, los dispositivos activos juegan un 
 
 ## ⚡ Objetivo
 
-Construir una fuente de poder con salida **variable** controlada mediante un potenciómetro, usando un transistor BJT como amplificador o seguidor de voltaje.
+Construir una fuente de alimentación ajustable (0.7V a ~8V) utilizando un transistor BJT NPN, potenciómetro y resistencias, integrando principios de dispositivos activos en electrónica analógica.
 
 ## 💻 Simulador
 
