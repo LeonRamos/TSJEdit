@@ -84,3 +84,13 @@ Al variar el potenciómetro, cambiará la tensión en la **base** del transistor
 
 ![Fuente](fuente.png)
 
+# Rúbrica de evaluación
+
+| Criterio                                      | Excelente (10)                                            | Bueno (8)                                               | Aceptable (6)                                          | Deficiente (0-5)                                        |
+|----------------------------------------------|-----------------------------------------------------------|---------------------------------------------------------|--------------------------------------------------------|---------------------------------------------------------|
+| Implementación de LM317                      | Circuito funcional, conexiones correctas y ordenadas      | Circuito funcional con mínimas fallas                   | Circuito funcional pero con errores de conexión         | Circuito incompleto o sin funcionamiento                |
+| Documentación del circuito                   | Incluye diagrama, capturas y descripción clara            | Incluye capturas y descripción aceptable                | Incluye solo capturas o una descripción muy breve       | Sin documentación o incompleta                         |
+| Variabilidad de la salida                    | Se muestran claramente diferentes valores de salida       | Muestra dos o más variaciones de voltaje                | Sólo una medición o valores poco claros                 | No se muestra variación de salida                      |
+| Entrega puntual                              | Entregado a tiempo y con todos los requisitos             | Entregado con ligero retraso o con un pequeño faltante  | Entregado tarde o con faltantes importantes             | No entregado o incompleto                             |
+| Presentación general del archivo entregado   | Ordenado, legible y bien etiquetado                       | Legible, con algunos detalles menores                   | Poco ordenado o con etiquetas confusas                  | Desordenado, ilegible o con nombre incorrecto          |
+
