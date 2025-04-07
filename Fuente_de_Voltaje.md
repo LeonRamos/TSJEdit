@@ -1,5 +1,6 @@
 ## Fuente de Poder Variable con Transistor BJT y Batería de 9V  
-**Objetivo:** Diseñar una fuente de alimentación ajustable (0.7V a ~8V) utilizando un transistor BJT NPN, potenciómetro y resistencias, integrando principios de dispositivos activos en electrónica analógica.
+**Objetivo:** 
+Diseñar una fuente de alimentación ajustable (0.7V a ~8V) utilizando un transistor BJT NPN, potenciómetro y resistencias, integrando principios de dispositivos activos en electrónica analógica.
 ---
 ![Circuito](esquema.png)
 ### Introducción al Uso de Transistores como Dispositivos Activos  
