@@ -4,7 +4,7 @@ Diseñar una fuente de alimentación ajustable (0.7V a ~8V) utilizando un transi
 ---
 ![Circuito](esquema.png)
 ### Introducción al Uso de Transistores como Dispositivos Activos  
-Los **transistores BJT** son dispositivos activos que permiten controlar el flujo de corriente entre el colector y el emisor mediante una señal en la base. En esta práctica, se utilizará un transistor NPN en configuración de **seguidor de emisor**, donde el voltaje de salida sigue al voltaje aplicado en la base (menos la caída $$ V_{BE} \approx 0.7 \, \text{V} $$).  
+Los **transistores BJT** son dispositivos activos que permiten controlar el flujo de corriente entre el colector y el emisor mediante una señal en la base. En esta práctica, se utilizará un transistor NPN en configuración de **seguidor de emisor**, donde el voltaje de salida sigue al voltaje aplicado en la base (menos la caída \( V_{BE} \approx 0.7 \, \text{V} \))..  
 
 Este circuito demuestra cómo los transistores:  
 - Actúan como **amplificadores de corriente**.  
