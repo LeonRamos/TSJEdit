@@ -96,5 +96,65 @@ La salida (pin 6) debe ser **igual al voltaje de entrada** (pin 3). El Op-Amp es
 - Asegúrate de revisar los pines del LM741 correctamente.
 - Si el circuito no responde como esperas, verifica la conexión de alimentación y tierra.
 - Puedes exportar o compartir el enlace del circuito desde Tinkercad para entregas o colaboración.
+## 📤 Entrega del Reporte
 
+### 📝 ¿Qué debe incluir tu reporte?
+
+Tu reporte de la práctica debe contener lo siguiente:
+
+1. **Portada** con tu nombre completo, matrícula, grupo y nombre de la práctica.
+2. **Capturas de pantalla** de los circuitos simulados en Tinkercad (vista general y conexiones).
+3. **Resultados obtenidos**: mediciones de voltajes, comportamiento observado.
+4. **Respuestas a las preguntas de análisis** que se indican al final de cada actividad.
+5. **Conclusiones personales** sobre lo que aprendiste con la práctica.
+
+### 📂 Formato de entrega
+
+- El reporte debe entregarse en **formato PDF**.
+- Nombra tu archivo así:  
+  `Practica_OpAmps_NombreApellido.pdf`
+
+  ---
+
+## 📊 Rúbrica de Evaluación: Práctica de Amplificadores Operacionales (Tinkercad)
+
+| Criterio                            | Excelente (10)                                      | Bueno (8)                                              | Regular (6)                                            | Insuficiente (0-5)                                  |
+|-------------------------------------|-----------------------------------------------------|--------------------------------------------------------|--------------------------------------------------------|-----------------------------------------------------|
+| **Construcción del circuito**       | Circuito completo, funcional, bien conectado y limpio. | Circuito funcional con pocos errores menores.          | Circuito con errores que afectan parcialmente su funcionamiento. | Circuito incompleto o no funcional.                 |
+| **Capturas de pantalla**           | Incluye todas las capturas necesarias con buena calidad y claridad. | Faltan pocas capturas o no tienen buena calidad.       | Capturas incompletas o poco claras.                   | No se incluyen capturas o son irrelevantes.         |
+| **Mediciones y resultados**        | Todas las mediciones están presentes, bien presentadas y son coherentes. | Algunas mediciones presentes y explicadas.             | Mediciones confusas o poco precisas.                  | No se presentan resultados o son incorrectos.        |
+| **Respuestas de análisis**         | Respuestas completas, bien razonadas y con lenguaje técnico adecuado. | Respuestas correctas pero poco desarrolladas.          | Respuestas incompletas o con errores conceptuales.    | No se responden las preguntas o son incorrectas.     |
+| **Conclusiones**                   | Conclusiones claras, reflexivas y bien argumentadas. | Conclusiones adecuadas pero generales.                 | Conclusiones muy breves o poco reflexivas.            | No hay conclusiones o son irrelevantes.              |
+| **Presentación y ortografía**      | Documento bien organizado, sin faltas ortográficas. | Documento legible con pocos errores ortográficos.      | Documento poco organizado o con varios errores.       | Desordenado y con muchos errores.                    |
+| **Entrega en tiempo y forma**      | Entregado a tiempo, en formato PDF correcto.         | Entregado a tiempo con errores menores en el formato. | Entregado con retraso o en formato incorrecto.        | No se entregó la práctica.                           |
+
+---
+
+🔢 **Puntaje total máximo:** 70 puntos  
+📈 **Escala de calificación:**  
+- 63 - 70: Excelente  
+- 56 - 62: Bueno  
+- 42 - 55: Regular  
+- < 42: Insuficiente
+
+### Bibliografía
+Coughlin, R. F., & Driscoll, F. F. (2000). Amplificadores operacionales y circuitos integrados lineales. Academia.edu. Recuperado de https://www.academia.edu/download/56020368/Amplificadores_Operacionales_Coughlin.pdf
+
+Universidad Nacional de La Plata. (2018). Amplificadores operacionales. SEDICI. Recuperado de https://sedici.unlp.edu.ar/handle/10915/69653
+
+Academia.edu. (2021). Amplificadores operacionales (II). Recuperado de https://www.academia.edu/download/68934295/Circuitos_Lab14_recuperado.pdf
+
+Rodríguez, J., & Gómez, M. (2015). Circuitos electrónicos con amplificadores operacionales: problemas, fundamentos teóricos, técnicas de identificación y análisis. Google Books. Recuperado de https://books.google.com/books?hl=en&lr=&id=iWOwTgeLn-QC&oi=fnd&pg=PA11&dq=amplificadores+operacionales&ots=eysORUSbmf&sig=CL0l_AzJ3gqd7eJ6i4i8irHdBrY
+
+Universidad del Azuay. (2019). Dispositivos electrónicos. Biblioteca UAZUAY. Recuperado de https://biblioteca.uazuay.edu.ec/buscar/item/61563
+
+Universidad Nacional de Educación (UNE). (2020). El amplificador operacional. Repositorio UNE. Recuperado de https://repositorio.une.edu.pe/items/be7fa466-9ab6-4368-9bad-da0d8c86e00f
+
+Mayosky, M., & Mayosky, M. A. (2004). Un amplificador operacional equilibrado. ResearchGate. Recuperado de https://www.researchgate.net/profile/Miguel-Mayosky/publication/3455138_A_Fully-Balanced_Operational_Amplifier/links/53d0f2f00cf25dc05cfe750f/A-Fully-Balanced-Operational-Amplifier.pdf
+
+Universidad de Cádiz (UCA). (2012). Amplificación: Amplificadores operacionales. Rodin UCA. Recuperado de https://rodin.uca.es/bitstream/handle/10498/14752/tema6%20ampl%20prot.pdf
+
+Pérez, R., & González, L. (2016). Potencialidades de la aplicación OPEDU para el estudio de los amplificadores operacionales. SciELO Cuba. Recuperado de http://scielo.sld.cu/scielo.php?pid=S1815-5.901202e+16&script=sci_arttext&tlng=en
+
+Mora, J., & Rodríguez, A. (2023). Diseño de un amplificador operacional de transconductancia aplicando técnicas de optimización multiobjetivo. SciELO Costa Rica. Recuperado de https://www.scielo.sa.cr/pdf/tem/v27n1/a01v27n1.pdf
 
