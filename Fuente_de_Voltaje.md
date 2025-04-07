@@ -23,16 +23,16 @@ En el estudio de la electrónica analógica, los dispositivos activos juegan un 
 - Cables de conexión
 ![]()
 
-## ⚡ Objetivo
+## Objetivo
 
 Construir una fuente de alimentación ajustable (0.7V a ~8V) utilizando un transistor BJT NPN, potenciómetro y resistencias, integrando principios de dispositivos activos en electrónica analógica como se muestra en el siguiente circuito.
 ![Esquematico](/esquema.png)
 
-## 💻 Simulador
+## Simulador
 
 Usaremos [Tinkercad Circuits](https://www.tinkercad.com/) para el armado virtual.
 
-## 🔧 Pasos
+## Pasos
 
 ### 1. Conectar la fuente de 9V
 
@@ -76,7 +76,7 @@ Al variar el potenciómetro, cambiará la tensión en la **base** del transistor
 - El transistor actúa como un **emisor seguidor**, ideal para regular pequeñas cargas.
 - Para alimentar dispositivos más exigentes, se pueden usar transistores de mayor corriente o un regulador como el LM317.
 
-## 🧪 Experimento Adicional (opcional)
+## Experimento Adicional (opcional)
 
 - Reemplaza el LED con un pequeño motor o ventilador y observa cómo cambia la velocidad al variar el voltaje de salida.
 
