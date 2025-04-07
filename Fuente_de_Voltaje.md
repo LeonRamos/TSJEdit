@@ -1,94 +1,78 @@
-## Fuente de Poder Variable con Transistor BJT y Batería de 9V  
-**Objetivo:** 
-Diseñar una fuente de alimentación ajustable (0.7V a ~8V) utilizando un transistor BJT NPN, potenciómetro y resistencias, integrando principios de dispositivos activos en electrónica analógica.
----
-![Circuito](esquema.png)
-### Introducción al Uso de Transistores como Dispositivos Activos  
-Los **transistores BJT** son dispositivos activos que permiten controlar el flujo de corriente entre el colector y el emisor mediante una señal en la base. En esta práctica, se utilizará un transistor NPN en configuración de **seguidor de emisor**, donde el voltaje de salida sigue al voltaje aplicado en la base (menos la caída \( V_{BE} \approx 0.7 \, \text{V} \))..  
+# 🛠️ Práctica: Fuente de Poder Variable con Transistor NPN (Tinkercad)
 
-Este circuito demuestra cómo los transistores:  
-- Actúan como **amplificadores de corriente**.  
-- Permiten regular voltajes mediante divisores resistivos.  
-- Requieren polarización adecuada para operar en la región activa.  
+## 🧪 Introducción
 
----
+En el estudio de la electrónica analógica, los dispositivos activos juegan un papel fundamental para el control y manipulación de señales eléctricas. A diferencia de los dispositivos pasivos, los activos —como los transistores— son capaces de amplificar, conmutar o modular una señal. Esta práctica se centra en la implementación de una fuente de poder variable utilizando un transistor BJT NPN, uno de los componentes activos más utilizados en circuitos analógicos. Mediante el uso de un potenciómetro se logra variar la tensión de salida, demostrando así el principio de amplificación y control de corriente que caracteriza a los transistores. Esta actividad proporciona una experiencia práctica que consolida el entendimiento de conceptos clave como el funcionamiento del emisor seguidor, el control de ganancia y la polarización del transistor, empleando el simulador Tinkercad como herramienta de experimentación virtual.
 
-### Materiales Necesarios (Simulación en Tinkercad)  
-1. **Transistor BJT NPN** (ej. 2N2222).
-![Transistor](bjt1.png)  
-2. Batería de 9V (fuente de entrada).  
-![Batería](bat.png) 
-3. Potenciómetro de 10kΩ (ajuste de voltaje).  
-![Potenciómetro](poten.png) 
-4. Resistencias: 1kΩ (base), 470Ω (emisor).  
-![Resistencias](res.png) 
-5. Protoboard, cables y multímetro virtual.  
-![Protoboard](/proto.png) 
----
 
-### Pasos para Construir el Circuito  
-#### 1. Configuración del Divisor de Voltaje  
-- Conecta el potenciómetro de 10kΩ entre los polos positivo (+) y negativo (-) de la batería. El terminal central del potenciómetro será la **salida de referencia** (\( V_{\text{base}} \)).
-```plaintext  
-Batería 9V → Potenciómetro (extremos)  
-```
 
-#### 2. Polarización del Transistor  
-- Une el terminal central del potenciómetro a la **base del transistor** mediante una resistencia de 1kΩ (limita la corriente de base).  
-- Conecta el **colector** directamente al polo positivo de la batería.  
-- Agrega una resistencia de 470Ω entre el **emisor** y tierra. El voltaje de salida ($$ V_{\text{out}} $$) se mide en el emisor.  
-```plaintext  
-Pot (central) → R1kΩ → Base  
-Colector → Batería (+)  
-Emisor → R470Ω → Tierra  
-```
+## 📦 Componentes
 
-#### 3. Fórmula de Voltaje de Salida  
-El circuito sigue la relación:  
-$$ V_{\text{out}} = V_{\text{base}} - V_{BE} $$  
-Donde:  
-- $$ V_{\text{base}} $$ depende de la posición del potenciómetro (0-9V).  
-- $$ V_{BE} \approx 0.7 \, \text{V} $$ (caída base-emisor).  
+- 1x Batería de 9V
+- 1x Transistor NPN (ej: 2N2222 o BC547)
+- 1x Potenciómetro (10kΩ recomendado)
+- 2x Resistencias (1kΩ y 220Ω)
+- 1x Protoboard
+- 1x LED (opcional, para prueba de salida)
+- Cables de conexión
 
-**Rango teórico:**  
-- Mínimo: $$ 0.7 \, \text{V} $$ (cuando $$ V_{\text{base}} = 0.7 \, \text{V} $$).  
-- Máximo: $$ 8.3 \, \text{V} $$ (si $$ V_{\text{base}} = 9 \, \text{V} $$), pero en la práctica, limitado por la saturación del transistor (~8V).  
+## ⚡ Objetivo
 
----
+Construir una fuente de poder con salida **variable** controlada mediante un potenciómetro, usando un transistor BJT como amplificador o seguidor de voltaje.
 
-### Simulación y Pruebas  
-1. **Ajuste del potenciómetro:** Gíralo para variar $$ V_{\text{base}} $$.  
-2. **Medición:** Usa el multímetro virtual para verificar $$ V_{\text{out}} $$ en el emisor.  
-3. **Análisis:** Observa cómo $$ V_{\text{out}} $$ sigue a $$ V_{\text{base}} $$ menos $$ 0.7 \, \text{V} $$, validando la función del transistor como dispositivo activo.  
+## 💻 Simulador
 
----
+Usaremos [Tinkercad Circuits](https://www.tinkercad.com/) para el armado virtual.
 
-### Funcionamiento del Transistor como Dispositivo Activo  
-- **Región activa:** El transistor actúa como un amplificador, donde $$ I_C = \beta \cdot I_B $$.  
-- **Retroalimentación:** La resistencia de emisor (470Ω) estabiliza la corriente, evitando variaciones bruscas.  
-- **Limitaciones:** La corriente máxima está determinada por $$ R_{\text{emisor}} $$ y la capacidad del transistor (2N2222 soporta hasta 800mA).  
+## 🔧 Pasos
 
----
+### 1. Conectar la fuente de 9V
 
-### Diagrama del Circuito en Tinkercad  
-```plaintext  
-Batería 9V  
-(+)  
-│  
-├───Colector (Transistor)  
-│  
-└───Potenciometro (10kΩ extremos)  
-    │  
-    ├─Central─R1kΩ─Base (Transistor)  
-    │  
-    └───Tierra  
-Emisor (Transistor)─R470Ω─Tierra  
-```
+- Coloca la batería de 9V en el área de trabajo.
+- Conecta el terminal positivo (+) al riel positivo de la protoboard.
+- Conecta el terminal negativo (–) al riel negativo (GND).
 
----
+### 2. Agregar el transistor NPN
 
-### Conclusión  
-Este diseño reemplaza componentes integrados (LM317) con un transistor BJT, demostrando cómo los dispositivos activos básicos permiten construir circuitos reguladores ajustables. La práctica refuerza conceptos clave como polarización, región activa y divisores de voltaje, esenciales para aplicaciones en electrónica analógica.
+- Coloca un transistor NPN en la protoboard.
+- Identifica sus pines: **Colector (C)**, **Base (B)** y **Emisor (E)**.
 
----
-Respuesta de Perplexity: pplx.ai/share
+### 3. Conectar el potenciómetro
+
+- Coloca el potenciómetro en la protoboard.
+- Conecta los extremos del potenciómetro a:
+  - Un lado al riel positivo (+)
+  - Otro lado al GND
+- Conecta el pin del medio del potenciómetro a la **base del transistor** a través de una **resistencia de 1kΩ**.
+
+### 4. Conectar la carga (opcional LED)
+
+- Conecta un **LED** con una **resistencia de 220Ω** desde el **emisor del transistor** hacia GND.
+- Esto permitirá observar la variación de voltaje.
+
+### 5. Alimentar el colector
+
+- Conecta el **colector del transistor** directamente al riel positivo (+) de la batería.
+
+### 6. Salida variable
+
+- La salida variable estará en el **emisor del transistor**.
+- Puedes conectar un multímetro desde el emisor a GND para observar cómo varía el voltaje al girar el potenciómetro.
+
+## 📊 Resultado Esperado
+
+Al variar el potenciómetro, cambiará la tensión en la **base** del transistor, y el transistor actuará como seguidor de voltaje, dando una salida variable en el **emisor**, menor que la entrada (por la caída V\_BE de \~0.7V).
+
+## 📝 Notas
+
+- El transistor actúa como un **emisor seguidor**, ideal para regular pequeñas cargas.
+- Para alimentar dispositivos más exigentes, se pueden usar transistores de mayor corriente o un regulador como el LM317.
+
+## 🧪 Experimento Adicional (opcional)
+
+- Reemplaza el LED con un pequeño motor o ventilador y observa cómo cambia la velocidad al variar el voltaje de salida.
+
+## 📷 Captura de Circuito
+
+![Fuente](fuente.png)
+
