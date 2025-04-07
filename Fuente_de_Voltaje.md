@@ -67,11 +67,11 @@ Usaremos [Tinkercad Circuits](https://www.tinkercad.com/) para el armado virtual
 - La salida variable estará en el **emisor del transistor**.
 - Puedes conectar un multímetro desde el emisor a GND para observar cómo varía el voltaje al girar el potenciómetro.
 
-## 📊 Resultado Esperado
+## Resultado Esperado
 
 Al variar el potenciómetro, cambiará la tensión en la **base** del transistor, y el transistor actuará como seguidor de voltaje, dando una salida variable en el **emisor**, menor que la entrada (por la caída V\_BE de \~0.7V).
 
-## 📝 Notas
+## Notas
 
 - El transistor actúa como un **emisor seguidor**, ideal para regular pequeñas cargas.
 - Para alimentar dispositivos más exigentes, se pueden usar transistores de mayor corriente o un regulador como el LM317.
@@ -80,7 +80,7 @@ Al variar el potenciómetro, cambiará la tensión en la **base** del transistor
 
 - Reemplaza el LED con un pequeño motor o ventilador y observa cómo cambia la velocidad al variar el voltaje de salida.
 
-## 📷 Captura de Circuito
+## Captura de Circuito
 
 ![Fuente](fuente.png)
 
