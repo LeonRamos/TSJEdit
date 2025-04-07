@@ -28,7 +28,7 @@ Este circuito demuestra cómo los transistores:
 
 ### Pasos para Construir el Circuito  
 #### 1. Configuración del Divisor de Voltaje  
-- Conecta el potenciómetro de 10kΩ entre los polos positivo (+) y negativo (-) de la batería. El terminal central del potenciómetro será la **salida de referencia** ($$ V_{\text{base}} $$).  
+- Conecta el potenciómetro de 10kΩ entre los polos positivo (+) y negativo (-) de la batería. El terminal central del potenciómetro será la **salida de referencia** (\( V_{\text{base}} \)).
 ```plaintext  
 Batería 9V → Potenciómetro (extremos)  
 ```
