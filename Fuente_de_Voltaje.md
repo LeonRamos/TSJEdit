@@ -9,16 +9,24 @@ En el estudio de la electrónica analógica, los dispositivos activos juegan un 
 ## Componentes
 
 - 1x Batería de 9V
+![Batería](bat.png)
 - 1x Transistor NPN (ej: 2N2222 o BC547)
+![Transistor](bjt1.png)
 - 1x Potenciómetro (10kΩ recomendado)
+![Potenciómetro](poten.png)
 - 2x Resistencias (1kΩ y 220Ω)
+![Resistencias](res.png)
 - 1x Protoboard
+![Protoboard](proto.png)
 - 1x LED (opcional, para prueba de salida)
+![]()
 - Cables de conexión
+![]()
 
 ## ⚡ Objetivo
 
-Construir una fuente de alimentación ajustable (0.7V a ~8V) utilizando un transistor BJT NPN, potenciómetro y resistencias, integrando principios de dispositivos activos en electrónica analógica.
+Construir una fuente de alimentación ajustable (0.7V a ~8V) utilizando un transistor BJT NPN, potenciómetro y resistencias, integrando principios de dispositivos activos en electrónica analógica como se muestra en el siguiente circuito.
+![Esquematico](/esquema.png)
 
 ## 💻 Simulador
 
